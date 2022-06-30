@@ -1,0 +1,23 @@
+{
+    "command_args": "python oml_omniglot.py --update_lr 0.1 0.03 0.01 0.003 --meta_lr 3e-4 1e-4 --name OML_3_TASK_5_UPDATES_final/ --tasks 3 --update_step 5 --steps 9000000 --path /localscratch/khurram.45305528.0/ --gpus 4 --rank 0",
+    "dir": "../results/",
+    "name": "OML_3_TASK_5_UPDATES_final/0/1",
+    "params": {
+        "dataset": "omniglot",
+        "gpus": 4,
+        "meta_lr": 0.0003,
+        "my_config": "configs/regression/empty.ini",
+        "name": "OML_3_TASK_5_UPDATES_final/",
+        "no_reset": false,
+        "path": "/localscratch/khurram.45305528.0/",
+        "rank": 0,
+        "seed": 90,
+        "steps": 9000000,
+        "tasks": 3,
+        "update_lr": 0.1,
+        "update_step": 5
+    },
+    "path": "../results/04July2020/OML_3_TASK_5_UPDATES_final/0/1_8/",
+    "results": {},
+    "root_folder": "../results/04July2020"
+}
